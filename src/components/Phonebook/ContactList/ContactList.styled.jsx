@@ -19,7 +19,6 @@ export const StyledContactItem = styled.li`
 
 export const StyledContactDel = styled.button`
   font-size: 20px;
-  margin-left: 50px;
   padding: 5px;
   border: none;
   color: red;

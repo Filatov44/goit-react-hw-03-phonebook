@@ -1,13 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 `;
 
 export const StyledLabel = styled.label`
-  color: blue;
+    color: blue;
 `;
 
 export const StyledInput = styled.input`
@@ -19,6 +19,7 @@ export const StyledInput = styled.input`
   border-radius: 10px;
   outline: none;
   transition: width 0.4s ease-in-out, border 0.4s ease-in-out;
+ 
 
   :focus {
     width: 100%;
@@ -44,14 +45,16 @@ export const StyledButtonAddContact = styled.button`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid transparent;
   border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :focus {
     background-color: blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
     scale: 1.1;
   }
   :hover {
     background-color: blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
     scale: 1.1;
   }
 `;
